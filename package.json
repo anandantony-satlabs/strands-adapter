@@ -1,0 +1,20 @@
+{
+	"name": "pi-strands-adapter",
+	"version": "0.1.0",
+	"description": "pi extension: jev_decide System One decisions over the strands-decider structured API (POST /v1/systemone). No prompt engineering, no model/effort config — the server owns decoding and probability normalization.",
+	"keywords": ["pi", "pi-coding-agent", "extension", "jev", "strands", "system-one", "decision-model", "adapter"],
+	"license": "MIT",
+	"type": "module",
+	"main": "index.ts",
+	"engines": {
+		"node": ">=20.3"
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-coding-agent": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anandantony-satlabs/strands-adapter.git"
+	}
+}

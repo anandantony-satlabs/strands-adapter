@@ -1,0 +1,3 @@
+node_modules/
+# Local endpoint/override file — may hold personal values; never commit it.
+strands-adapter.config.json
